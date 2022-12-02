@@ -1,3 +1,26 @@
 .color-1 {
-    color: crimson;
+    color: darkmagenta;
 }
+
+/* RedGreenBlue RGB */
+/* 00 -- ff */
+.color-2 {
+    /* color: #4B0082; */
+    color: #ff00ff;
+}
+
+.color-3 {
+    color: #eee;
+}
+
+/* 0 - 255 */
+.color-4 {
+    color: rgb(0, 150, 0);
+    /* opacity: 0,2; */
+}
+
+/* rgba opacity 0-1 */
+.color-5 {
+    color: rgba(150, 0, 0, 1);
+}
+
