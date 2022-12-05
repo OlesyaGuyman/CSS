@@ -1,0 +1,64 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background: #eeefff;
+}
+
+/* четные строчки раскрашиваются */
+/* .table tr:nth-child(even) {
+    background: #eee;
+} */
+
+/* нечетные строчки раскрашиваются */
+.table tr:nth-child(odd) {
+    background: #eee;
+}
+
+.table td:nth-child(2), table td:nth-child(4) {
+    background: #fffeee;
+}
+
+.navbar {
+    background: lightcoral;
+    /* padding: 12px 24px; */
+    margin-bottom: 12px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right: 12px;
+    padding: 12px;
+}
+
+.navbar ul li:hover {
+    background: #ea6767;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
